@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ashim Chhetri — Portfolio</title>
+		<meta name="description" content="Portfolio of Ashim Chhetri — Graphics Designer, UI/UX Designer, and Video Editor." />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<canvas id="twinkle-canvas" aria-hidden="true"></canvas>
+		<div id="cursor-core" aria-hidden="true"></div>
+		<div id="cursor-ring" aria-hidden="true"></div>
+		<header id="site-header" class="site-header">
+			<div class="container header-inner">
+				<a class="logo" href="#hero">Ashim</a>
+				<nav class="nav" aria-label="Primary navigation">
+					<button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+						<span class="bar"></span>
+						<span class="bar"></span>
+						<span class="bar"></span>
+					</button>
+					<ul id="primary-nav" class="nav-list">
+						<li><a href="#about">About</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<section id="hero" class="section hero">
+				<div class="container hero-grid">
+					<div class="hero-content reveal">
+						<p class="eyebrow">Hello, I'm</p>
+						<h1 class="name">Ashim Chhetri</h1>
+						<p class="title">Graphics Designer | UI/UX Designer | Video Editor</p>
+						<p class="tagline">“Turning ideas into visuals, experiences, and stories with creativity that speaks louder than words.”</p>
+						<div class="cta-group">
+							<a class="btn primary" href="#projects">View Work</a>
+							<a class="btn" href="#contact">Contact</a>
+							<a href="assets/CV Resume.pdf" class="btn" download>Download CV</a>
+						</div>
+					</div>
+					<div class="hero-media reveal" aria-hidden="true">
+						<div class="avatar-wrap">
+							<img src="assets/profile.svg" alt="" class="avatar" />
+							<div class="glow"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="about" class="section about">
+				<div class="container narrow reveal">
+					<h2 class="section-title">About Me</h2>
+					<p class="lead">Professional and creative graphics designer with a passion for bringing concepts to life through design, UI/UX, and video editing. Skilled in coding and problem-solving, I thrive on combining technical expertise with artistic vision to create impactful solutions. Beyond design, I value teamwork, leadership, and meaningful connections that drive growth and innovation.</p>
+				</div>
+			</section>
+
+			<section id="projects" class="section projects">
+    <div class="container">
+        <h2 class="section-title reveal">Projects</h2>
+        <div class="projects-grid">
+            <article class="project-card reveal">
+                <div class="project-media placeholder" aria-hidden="true">Frontend UI/UX
+                    <span class="hint">Preview</span>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Frontend UI/UX design</h3>
+                    <p class="project-desc">A modern, responsive landing page UI/UX design for TechEyes, built with a focus on clean layout, accessibility, and engaging visuals.</p>
+                    <div class="project-actions">
+                        <a class="btn small" href="https://v0-techeyes-landing-page.vercel.app/" target="_blank" rel="noopener">View</a>
+                    </div>
+                </div>
+            </article>
+            <article class="project-card reveal">
+                <div class="project-media" aria-hidden="true">
+                    <img src="assets/TREK.svg" alt="TREK Project" style="width:100%;height:auto;object-fit:contain;background:transparent;" />
+                    <span class="hint">Preview</span>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">TREK Branding Design</h3>
+                    <p class="project-desc">Branding and logo design for TREK, showcasing creative vector illustration and modern design principles.</p>
+                    <div class="project-actions">
+                        <a class="btn small" href="assets/TREK.svg" target="_blank" rel="noopener">View</a>
+                    </div>
+                </div>
+            </article>
+            <div class="project-card reveal" style="display: flex; align-items: center; justify-content: center;">
+                <a class="btn" href="#projects">Many more</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+			<section id="skills" class="section skills">
+				<div class="container reveal">
+					<h2 class="section-title">Skills</h2>
+					<div class="skills-grid">
+						<div class="skill-block">
+							<h3>Tools & Technical</h3>
+							<ul class="tags">
+								<li>Adobe Illustrator</li>
+								<li>Adobe Photoshop</li>
+								<li>Figma</li>
+								<li>Canva</li>
+								<li>Frontend Development (HTML, CSS, JS)</li>
+								<li>DaVinci Resolve</li>
+							</ul>
+						</div>
+						<div class="skill-block">
+							<h3>Soft Skills</h3>
+							<ul class="tags">
+								<li>Teamwork</li>
+								<li>Leadership</li>
+								<li>Communication</li>
+								<li>Building Connections</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="contact" class="section contact">
+				<div class="container narrow reveal">
+					<h2 class="section-title">Contact</h2>
+					<ul class="contact-list">
+						<li>
+							<span class="label">Email</span>
+							<a href="mailto:ashimratomate123@gmail.com">ashimratomate123@gmail.com</a>
+						</li>
+						<li>
+							<span class="label">Phone</span>
+							<a href="tel:+9779844712930">+977 9844712930</a>
+						</li>
+					</ul>
+					<div class="cta-group">
+						<a class="btn primary" href="assets/Ashim_Chhetri_CV.pdf" download>Download CV</a>
+						<a class="btn" href="#hero">Back to top</a>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<div class="container">
+				<p>© <span id="year"></span> Ashim Chhetri. All rights reserved.</p>
+			</div>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>
